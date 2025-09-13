@@ -842,7 +842,7 @@ model = run_training()
 
 
     
-![png](Cell_Type_Classification_using_Transformers_files/Cell_Type_Classification_using_Transformers_49_1.png)
+![png](media/Cell_Type_Classification_using_Transformers_49_1.png)
     
 
 
@@ -873,7 +873,7 @@ plt.show()
 
 
     
-![png](Cell_Type_Classification_using_Transformers_files/Cell_Type_Classification_using_Transformers_52_0.png)
+![png](media/Cell_Type_Classification_using_Transformers_52_0.png)
     
 
 
@@ -914,7 +914,7 @@ plt.show()
 
 
     
-![png](Cell_Type_Classification_using_Transformers_files/Cell_Type_Classification_using_Transformers_55_0.png)
+![png](media/Cell_Type_Classification_using_Transformers_55_0.png)
     
 
 
