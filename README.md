@@ -11,7 +11,7 @@ Single-cell RNA-seq data are designed to measure the activity (or expression) of
 
 Here we train two baseline classifiers and a self-attention transformer to classify cells by their cell type using single-cell RNA-seq data.
 
-The Self-Attention Transformer is a proof of concept that beat the Random Forest baseline but did not beat the Logistic Regression one. The Self-Attention module is implemented from scratch.
+The Self-Attention Transformer is a proof of concept that beats the Random Forest baseline but did not beat the Logistic Regression one. The Self-Attention module is implemented from scratch.
 
 ## Install dependencies
 
