@@ -409,8 +409,13 @@ The model consists of:
 - and a linear layer to output class logits.
 
 Results:
-- F1 (macro): 62%
-- Accuracy: 62%
+| Model                    | F1 (macro) | Accuracy |
+|--------------------------|------------|----------|
+| Random Forest            | 58%       | 74% *     |
+| Self-Attenion Transformer | 62% *      | 62%      | 
+| Logistic Regression        | **68%**    | **75%**  |
+
+(*) Second best
 
 Please refer the output of the **Evaluation** cell at the end of the notebook for all other performance metrics (Precision, Recall, Accuracy, and Balanced accuracy)
 
@@ -883,6 +888,8 @@ plt.show()
 with torch.no_grad():
     torch.cuda.empty_cache()
 ```
+
+## Logistic Regression compared to Self-Attention Transformer
 
 The cell below plots the confusion matrices of the Self-Attention Transfomer and the Logistic Regression models side by side for comparison.
 
