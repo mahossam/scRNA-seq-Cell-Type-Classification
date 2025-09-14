@@ -330,8 +330,13 @@ The model is inspired by scGPT use of genes and expression values to learn atten
 https://www.biorxiv.org/content/10.1101/2023.04.30.538439v2
 
 **Results**:
-- F1 (macro): 62%
-- Accuracy: 62%
+| Model                    | F1 (macro) | Accuracy |
+|--------------------------|------------|----------|
+| Random Forest            | 58%       | 74% *     |
+| Self-Attenion Transformer | 62% *      | 62%      | 
+| Logistic Regression        | **68%**    | **75%**  |
+
+(*) Second best
 
 #### Data splitting
 
